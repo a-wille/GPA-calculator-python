@@ -7,7 +7,7 @@
 # All that you need to do is input your unofficial transcript and goal GPA
 # and the program will figure out the rest
 #
-# By: Annika W.
+# By: a-wille
 # May 26th, 2020
 #
 #running from terminal, these are what the args should be
@@ -276,6 +276,7 @@ def calculategpaneeded():
     futurepointsearned = (float(desiredgpa)*(float(creditearned) + float(creditsyetearned)) - float(pointsearned))
     gpaneeded = futurepointsearned/creditsyetearned
 
+# i feel like this method is pretty self explanatory, just printing the calculated results in case you were confused. 
 def printresults():
     checknamestring()
     if gpaneeded > 4.0:
